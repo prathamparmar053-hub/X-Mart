@@ -82,12 +82,12 @@ export const Header = () => {
               </AnimatePresence>
             </div>
             <a href="#" className="hover:text-primary transition-colors">Track Order</a>
-            <button 
-              onClick={() => window.alert('To download the full source code of this website, please use the "Export to ZIP" option in the AI Studio Settings menu.')}
+            <Link 
+              to="/download"
               className="hover:text-primary transition-colors flex items-center gap-2"
             >
               Download App
-            </button>
+            </Link>
           </div>
         </div>
       </div>

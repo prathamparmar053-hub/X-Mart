@@ -14,6 +14,7 @@ import { Electronics } from './pages/Electronics';
 import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { SignIn } from './pages/SignIn';
+import { Download } from './pages/Download';
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="signin" element={<SignIn />} />
+          <Route path="download" element={<Download />} />
         </Route>
       </Routes>
     </Router>
